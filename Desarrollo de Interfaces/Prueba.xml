@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!DOCTYPE BIBLIOTECA
+[
+<!ELEMENT BIBLIOTECA (LIBRO+)>
+<!ATTLIST LIBRO COD CDATA #REQUIRED>
+<!ELEMENT LIBRO (AUTOR+, TITULO*, ANYO?, EDITORIAL)>
+<!ELEMENT AUTOR (#PCDATA)>
+<!ELEMENT TITULO (#PCDATA)>
+<!ELEMENT ANYO (#PCDATA)>
+<!ELEMENT EDITORIAL (#PCDATA)>
+]
+>
+
+<BIBLIOTECA>
+    <LIBRO COD="1">
+        <AUTOR>Vicent Roig Saval</AUTOR>
+        <TITULO>XML para todos</TITULO>
+        <ANYO>2021</ANYO>
+        <EDITORIAL>IES n1</EDITORIAL>
+    </LIBRO>
+
+    <LIBRO COD="2">
+        <AUTOR>Vicent Roig Saval</AUTOR>
+        <TITULO>XML para todos2</TITULO>
+        <ANYO>2021</ANYO>
+        <EDITORIAL>IES n1</EDITORIAL>
+    </LIBRO>
+</BIBLIOTECA>

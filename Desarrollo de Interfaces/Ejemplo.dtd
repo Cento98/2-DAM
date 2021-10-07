@@ -1,0 +1,7 @@
+<!ELEMENT BIBLIOTECA (LIBRO+)>
+<!ATTLIST LIBRO COD CDATA #REQUIRED>
+
+<!ELEMENT shiporder (orderperson, shipto, item+)>
+<!ATTLIST shiporder orderid CDATA #REQUIRED>
+<!ELEMENT shipto (name, addres, city, country)>
+<!ELEMENT item (title, note, quanty, price)>

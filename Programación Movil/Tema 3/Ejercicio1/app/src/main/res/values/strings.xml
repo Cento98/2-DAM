@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="Saludo">Salutació</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="saliuda">Saluda</string>
+</resources>

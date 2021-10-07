@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Moneda</string>
+    <string name="caraocreu">Cara o Creu</string>
+    <string name="aposta">Faça la seua aposta</string>
+    <string name="creu">CREU</string>
+    <string name="cara">CARA</string>
+    <string name="ganar">Has ganado</string>
+    <string name="perder">Has perdido</string>
+</resources>

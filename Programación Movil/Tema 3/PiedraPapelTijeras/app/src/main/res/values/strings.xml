@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PiedraPapelTijeras</string>
+    <string name="titulo">Piedra, Paper o Tijeras</string>
+    <string name="piedra">PIEDRA</string>
+    <string name="papel">PAPEL</string>
+    <string name="tijeras">TIJERAS</string>
+</resources>

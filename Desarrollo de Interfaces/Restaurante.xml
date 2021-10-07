@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-steelsheet href="Restaurante.xsl" type="text/xsl"?>
+
+<RESTAURANTE>
+	<MENU>
+		<PRECIO>8€</PRECIO>
+		<PRIMERO>Primero1</PRIMERO>
+		<SEGUNDO>Segundo1</SEGUNDO>
+		<TERCERO>Tercero1</TERCERO>
+	</MENU>
+
+	<MENU>
+		<PRECIO>10€</PRECIO>
+		<PRIMERO>Primero2</PRIMERO>
+		<PRIMERO>Primero2.2</PRIMERO>
+		<SEGUNDO>Segundo2</SEGUNDO>
+		<SEGUNDO>Segundo2.2</SEGUNDO>
+		<TERCERO>Tercero2</TERCERO>
+		<TERCERO>Tercero2.2</TERCERO>
+	</MENU>
+
+	<CARTA>
+		<NOMBREPLATO>Plato1</NOMBREPLATO>
+		<PRECIO>5€</PRECIO>
+
+		<NOMBREPLATO>Plato2</NOMBREPLATO>
+		<PRECIO>4€</PRECIO>
+
+		<NOMBREPLATO>Plato3</NOMBREPLATO>
+		<PRECIO>6€</PRECIO>
+
+		<NOMBREPLATO>Plato4</NOMBREPLATO>
+		<PRECIO>3€</PRECIO>
+	</CARTA>
+
+	<PLANTILLA CARGO="Cocinero">
+		<NOMBREEMPLEADO>Empleado1</NOMBREEMPLEADO>
+		<TURNO>Turno1</TURNO>
+	</PLANTILLA>
+
+	<PLANTILLA CARGO="Camarero">
+		<NOMBREEMPLEADO>Empleado2</NOMBREEMPLEADO>
+		<TURNO>Turno2</TURNO>
+	</PLANTILLA>
+</RESTAURANTE>
