@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="Basket.xsd" type="Application/xml-xsd"?>
+<?xml-stylesheet type="text/xsl" href="Basket.xsl"?>
+
+<PARTIDO>
+    <EQUIPO>
+        <ENTRENADOR>Entrenador1</ENTRENADOR>
+        <JUGADOR dorsal="1" titular="true">Jugador1</JUGADOR>
+        <JUGADOR dorsal="2" titular="true">Jugador2</JUGADOR>
+        <JUGADOR dorsal="3" titular="true">Jugador3</JUGADOR>
+        <JUGADOR dorsal="4" titular="true">Jugador4</JUGADOR>
+        <JUGADOR dorsal="5" titular="true">Jugador5</JUGADOR>
+        <JUGADOR dorsal="6" titular="true">Jugador6</JUGADOR>
+        <JUGADOR dorsal="7" titular="true">Jugador7</JUGADOR>
+        <JUGADOR dorsal="8" titular="true">Jugador8</JUGADOR>
+        <JUGADOR dorsal="9" titular="false">Jugador9</JUGADOR>
+        <JUGADOR dorsal="10" titular="false">Jugador10</JUGADOR>
+    </EQUIPO>
+
+    <EQUIPO>
+        <ENTRENADOR>Entrenador2</ENTRENADOR>
+        <JUGADOR dorsal="11" titular="true">Jugador11</JUGADOR>
+        <JUGADOR dorsal="12" titular="true">Jugador12</JUGADOR>
+        <JUGADOR dorsal="13" titular="true">Jugador13</JUGADOR>
+        <JUGADOR dorsal="14" titular="true">Jugador14</JUGADOR>
+        <JUGADOR dorsal="15" titular="true">Jugador15</JUGADOR>
+        <JUGADOR dorsal="16" titular="true">Jugador16</JUGADOR>
+        <JUGADOR dorsal="17" titular="true">Jugador17</JUGADOR>
+        <JUGADOR dorsal="18" titular="true">Jugador18</JUGADOR>
+        <JUGADOR dorsal="19" titular="false">Jugador19</JUGADOR>
+        <JUGADOR dorsal="20" titular="false">Jugador20</JUGADOR>
+        <JUGADOR dorsal="21" titular="false">Jugador21</JUGADOR>
+        <JUGADOR dorsal="22" titular="false">Jugador22</JUGADOR>
+    </EQUIPO>
+
+    <FALTASPERSONALES>
+        <FALTA>
+            <JUGADOR>Jugador1</JUGADOR>
+            <EQUIPO>Equipo1</EQUIPO>
+            <MINUTO>05:14</MINUTO>
+        </FALTA>
+        <FALTA>
+            <JUGADOR>Jugador5</JUGADOR>
+            <EQUIPO>Equipo1</EQUIPO>
+            <MINUTO>03:44</MINUTO>
+        </FALTA>
+        <FALTA>
+            <JUGADOR>Jugador19</JUGADOR>
+            <EQUIPO>Equipo2</EQUIPO>
+            <MINUTO>10:02</MINUTO>
+        </FALTA>
+    </FALTASPERSONALES>
+
+    <ANOTACIONES>
+        <ANOTACION>
+            <JUGADOR>Jugador1</JUGADOR>
+            <EQUIPO>Equipo1</EQUIPO>
+            <MINUTO>01:02</MINUTO>
+            <PUNTOS>2</PUNTOS>
+        </ANOTACION>
+        <ANOTACION>
+            <JUGADOR>Jugador10</JUGADOR>
+            <EQUIPO>Equipo1</EQUIPO>
+            <MINUTO>09:20</MINUTO>
+            <PUNTOS>3</PUNTOS>
+        </ANOTACION>
+        <ANOTACION>
+            <JUGADOR>Jugador15</JUGADOR>
+            <EQUIPO>Equipo2</EQUIPO>
+            <MINUTO>10:40</MINUTO>
+            <PUNTOS>2</PUNTOS>
+        </ANOTACION>
+        <ANOTACION>
+            <JUGADOR>Jugador20</JUGADOR>
+            <EQUIPO>Equipo2</EQUIPO>
+            <MINUTO>03:00</MINUTO>
+            <PUNTOS>3</PUNTOS>
+        </ANOTACION>
+    </ANOTACIONES>
+
+</PARTIDO>

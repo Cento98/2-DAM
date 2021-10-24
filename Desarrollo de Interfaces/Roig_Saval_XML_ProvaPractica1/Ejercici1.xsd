@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="RECETAS">
+     <xs:complexType>
+         <xs:sequence>
+             <xs:element name="NOMBREPLATO" maxOccurs="unbounded">
+                 <xs:complexType>
+                     <xs:sequence>
+                         <xs:element name="NOMBRE"></xs:element>
+                         <xs:element name="INGREDIENTS">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="INGREDIENT" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="NOM"></xs:element>
+                                                <xs:element name="QUANTITAT">
+                                                    <xs:complexType>
+                                                        <xs:simpleContent>
+                                                            <xs:extension base="xs:string">
+                                                                <xs:attribute name="mesurat" use="required">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:string">
+                                                                            <xs:enumeration value="gramos"></xs:enumeration>
+                                                                            <xs:enumeration value="litro"></xs:enumeration>
+                                                                            <xs:enumeration value="mili-litros"></xs:enumeration>
+                                                                            <xs:enumeration value="pieza"></xs:enumeration>
+                                                                            <xs:enumeration value="cucharada"></xs:enumeration>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:attribute>
+                                                            </xs:extension>
+                                                        </xs:simpleContent>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                         </xs:element>
+
+                         <xs:element name="PREPARACIO">
+                             <xs:complexType>
+                                 <xs:simpleContent>
+                                     <xs:extension base="xs:string">
+                                         <xs:attribute name="dificultat" use="required">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="alta"></xs:enumeration>
+                                                    <xs:enumeration value="mitja"></xs:enumeration>
+                                                    <xs:enumeration value="baixa"></xs:enumeration>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                         </xs:attribute>
+                                         <xs:attribute name="temps_forn" type="xs:integer" use="optional"></xs:attribute>
+                                         <xs:attribute name="temperatura_forn" type="xs:integer" use="optional"></xs:attribute>
+                                     </xs:extension>
+                                 </xs:simpleContent>
+                             </xs:complexType>
+                         </xs:element>
+
+                         <xs:element name="TEMPS"></xs:element>
+
+                     </xs:sequence>
+                 </xs:complexType>
+             </xs:element>
+         </xs:sequence>
+     </xs:complexType>
+ </xs:element>
+</xs:schema>

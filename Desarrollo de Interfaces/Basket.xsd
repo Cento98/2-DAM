@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="PARTIDO">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="EQUIPO" minOccurs="2" maxOccurs="2">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ENTRENADOR"></xs:element>
+                            <xs:element name="JUGADOR" minOccurs="8" maxOccurs="12">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="dorsal" type="xs:positiveInteger" use="required"></xs:attribute>
+                                            <xs:attribute name="titular" type="xs:boolean" use="required"></xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="FALTASPERSONALES">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="FALTA" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="JUGADOR" type="xs:string"></xs:element>
+                                        <xs:element name="EQUIPO" type="xs:string"></xs:element>
+                                        <xs:element name="MINUTO" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="ANOTACIONES">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ANOTACION" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="JUGADOR" type="xs:string"></xs:element>
+                                        <xs:element name="EQUIPO" type="xs:string"></xs:element>
+                                        <xs:element name="MINUTO" type="xs:string"></xs:element>
+                                        <xs:element name="PUNTOS" type="xs:positiveInteger"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

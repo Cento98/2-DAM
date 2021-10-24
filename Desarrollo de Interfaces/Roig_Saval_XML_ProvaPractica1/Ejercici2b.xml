@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="Ejercicio3.css"?>
+<?xml-model href="Ejercici1.xsd" type="Application/xml-xsd"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio4b.xsl"?>
+
+<RECETAS>
+    <NOMBREPLATO>
+        <NOMBRE>Macarrones Boloñesa</NOMBRE>
+        <INGREDIENTS>
+            <INGREDIENT>
+                <NOM>Macarrones</NOM>
+                <QUANTITAT mesurat="gramos">200</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Carne picada</NOM>
+                <QUANTITAT mesurat="gramos">250</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Cebolla</NOM>
+                <QUANTITAT mesurat="pieza">1</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Champiñones</NOM>
+                <QUANTITAT mesurat="gramos">100</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Ajo</NOM>
+                <QUANTITAT mesurat="pieza">2</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Salsa de tomare</NOM>
+                <QUANTITAT mesurat="mili-litros">500</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Queso para gratinar</NOM>
+                <QUANTITAT mesurat="gramos">400</QUANTITAT>
+            </INGREDIENT>
+        </INGREDIENTS>
+    
+        <PREPARACIO dificultat="baixa" temps_forn="10" temperatura_forn="150">Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones</PREPARACIO>
+    
+        <TEMPS>30</TEMPS>
+    </NOMBREPLATO>
+    
+    <NOMBREPLATO>
+        <NOMBRE>Lentejas</NOMBRE>
+        <INGREDIENTS>
+            <INGREDIENT>
+                <NOM>Lentejas</NOM>
+                <QUANTITAT mesurat="gramos">300</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Carne de Cerdo</NOM>
+                <QUANTITAT mesurat="gramos">250</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Cebolla</NOM>
+                <QUANTITAT mesurat="pieza">2</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Zanahoria</NOM>
+                <QUANTITAT mesurat="pieza">4</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Nabo</NOM>
+                <QUANTITAT mesurat="pieza">2</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Caldo de Carne o Agua</NOM>
+                <QUANTITAT mesurat="mili-litros">500</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Chorizo</NOM>
+                <QUANTITAT mesurat="gramos">300</QUANTITAT>
+            </INGREDIENT>
+        </INGREDIENTS>
+    
+        <PREPARACIO dificultat="alta">Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones</PREPARACIO>
+
+        <TEMPS>120</TEMPS>
+    </NOMBREPLATO>
+
+    <NOMBREPLATO>
+        <NOMBRE>Arroz a la cubana</NOMBRE>
+        <INGREDIENTS>
+            <INGREDIENT>
+                <NOM>Arroz</NOM>
+                <QUANTITAT mesurat="gramos">200</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Carne troceada</NOM>
+                <QUANTITAT mesurat="gramos">250</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Cebolla</NOM>
+                <QUANTITAT mesurat="pieza">1</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Champiñones</NOM>
+                <QUANTITAT mesurat="gramos">100</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Huevo</NOM>
+                <QUANTITAT mesurat="pieza">2</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Salsa de tomare</NOM>
+                <QUANTITAT mesurat="mili-litros">500</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Higado</NOM>
+                <QUANTITAT mesurat="gramos">400</QUANTITAT>
+            </INGREDIENT>
+        </INGREDIENTS>
+    
+        <PREPARACIO dificultat="baixa">Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones</PREPARACIO>
+    
+        <TEMPS>30</TEMPS>
+    </NOMBREPLATO>
+    
+    <NOMBREPLATO>
+        <NOMBRE>Arroz al horno</NOMBRE>
+        <INGREDIENTS>
+            <INGREDIENT>
+                <NOM>Arroz</NOM>
+                <QUANTITAT mesurat="gramos">200</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Garbanzos</NOM>
+                <QUANTITAT mesurat="gramos">250</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Patata</NOM>
+                <QUANTITAT mesurat="pieza">1</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Tomate</NOM>
+                <QUANTITAT mesurat="pieza">2</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Ajo</NOM>
+                <QUANTITAT mesurat="pieza">10</QUANTITAT>
+            </INGREDIENT>
+        </INGREDIENTS>
+    
+        <PREPARACIO dificultat="mitja" temps_forn="30" temperatura_forn="200">Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones</PREPARACIO>
+    
+        <TEMPS>1h</TEMPS>
+    </NOMBREPLATO>
+
+    <NOMBREPLATO>
+        <NOMBRE>Paella</NOMBRE>
+        <INGREDIENTS>
+            <INGREDIENT>
+                <NOM>Arroz</NOM>
+                <QUANTITAT mesurat="gramos">200</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Alubias</NOM>
+                <QUANTITAT mesurat="gramos">250</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Costilla de cerdo</NOM>
+                <QUANTITAT mesurat="gramos">100</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Carnde de conejo</NOM>
+                <QUANTITAT mesurat="gramos">200</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Ajo</NOM>
+                <QUANTITAT mesurat="pieza">10</QUANTITAT>
+            </INGREDIENT>
+            <INGREDIENT>
+                <NOM>Carne de pollo</NOM>
+                <QUANTITAT mesurat="gramos">200</QUANTITAT>
+            </INGREDIENT>
+        </INGREDIENTS>
+    
+        <PREPARACIO dificultat="mitja">Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones Proceso de preparacion de macarrones</PREPARACIO>
+    
+        <TEMPS>60</TEMPS>
+    </NOMBREPLATO>
+
+    
+</RECETAS>
