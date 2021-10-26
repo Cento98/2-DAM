@@ -15,19 +15,20 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryV
 
     private Country[] paises;
 
-    public CountryAdapter(@NonNull Context context, Country[] paises) {
-        super(context, R.layout.item_country, paises);
+    public CountryAdapter(Country[] paises) {
         this.paises=paises;
     }
-
-    public CountryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
-        View itemView= LayoutInflater.from(parent.getContext()).inflate(R.layout.item_country, parent, false);
+    @Override
+    public CountryViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
+        View itemView= LayoutInflater.from(parent.getContext()).inflate(R.layout.item_country2, parent, false);
         return new CountryViewHolder(itemView);
     }
-    public void onBindViewHolder(@NonNull CountryViewHolder holder, int position){
+    @Override
+    public void onBindViewHolder(CountryViewHolder holder, int position){
         Country pais=paises[position];
         holder.bindCountry(pais, position);
     }
+    @Override
     public int getItemCount(){return paises.length;}
 
     public class CountryViewHolder extends RecyclerView.ViewHolder{
@@ -37,7 +38,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryV
         private ImageView bandera;
 
 
-        public CountryViewHolder(@NonNull View itemView){
+        public CountryViewHolder(View itemView){
             super(itemView);
             nombre=itemView.findViewById(R.id.tvNombre);
             capital= itemView.findViewById(R.id.tvCapital);
