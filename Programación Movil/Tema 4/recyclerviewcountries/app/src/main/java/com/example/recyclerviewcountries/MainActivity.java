@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
         rvReciclador=findViewById(R.id.rvReciclador);
         if(paisesParser.parse()){
             paises=paisesParser.getCountries();
-            CountryAdapter adaptador=new CountryAdapter(paises);
-            rvReciclador.hasFixedSize();
-            rvReciclador.setAdapter(adaptador);
-            rvReciclador.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         }
+        CountryAdapter adaptador=new CountryAdapter(paises);
+        rvReciclador.setHasFixedSize(true);
+        rvReciclador.setAdapter(adaptador);
+        rvReciclador.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
     }
 }
